@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="@dimen/card_size"
+              android:layout_height="@dimen/card_size"
+              android:layout_margin="3dp"
+              android:background="@drawable/card_gradient_relay"
               android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:elevation="@dimen/gridview_elevation"
+              android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/binder_shop_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/example_shop_name"
+        android:textAlignment="center"
+        android:textColor="@color/icons"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/binder_shop_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/example_size"
+        android:textAlignment="center"
+        android:textColor="@color/icons"
+        android:textSize="40dp"/>
+
+    <ImageButton
+        android:id="@+id/binder_shop_link_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_shopping_cart_black_48dp"
+
+    />
+
 
 </LinearLayout>

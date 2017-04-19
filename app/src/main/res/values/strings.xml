@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">BinderFinder</string>
+    <string name="example_shop_name">Solvi\'s Binders</string>
+    <string name="example_size">M</string>
+    <string name="options_fab">Options</string>
+
+    <!-- new measurements dialog-->
+    <string name="add_new_measurements">Add a new set of measurements dialog box</string>
+    <string name="your_chest_size">Your chest size</string>
+    <string name="your_cup_size">Your cup size</string>
+    <string name="save_measurements">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_entry_toast">No size entered - please try again :)</string>
+
+    <!-- sharedPrefs -->
+    <string name="pref_bust_size_key" translatable="false">bust-size</string>
+    <string name="pref_bust_size_label">Bust Size</string>
+    <string name="pref_bust_size_default">36</string>
+
+    <string name="pref_cup_size_key" translatable="false">cup-size</string>
+    <string name="pref_cup_size_label">Cup Size</string>
+    <string name="pref_cup_size_default">C</string>
+
+
+
 </resources>
+
